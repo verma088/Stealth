@@ -43,7 +43,6 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/AlarmLight.cs'
 'Assets/Done/DoneScripts/AlarmSystems/DoneAlarmLight.cs'
 'Assets/Done/DoneScripts/AlarmSystems/DoneCCTVPlayerDetection.cs'
 'Assets/Done/DoneScripts/AlarmSystems/DoneLaserBlinking.cs'
@@ -64,10 +63,13 @@
 'Assets/Done/DoneScripts/PlayerScripts/DonePlayerHealth.cs'
 'Assets/Done/DoneScripts/PlayerScripts/DonePlayerInventory.cs'
 'Assets/Done/DoneScripts/PlayerScripts/DonePlayerMovement.cs'
-'Assets/Done/DoneScripts/ScreenFaderScripts/DoneSceneFadeInOut.cs'
 'Assets/Done/DoneScripts/UnappliedScripts/DoneAnimatorSetup.cs'
 'Assets/Done/DoneScripts/UnappliedScripts/DoneTags.cs'
 'Assets/Done/DoneScripts/UnappliedScripts/guiTextSet.cs'
-'Assets/Scripts/NewBehaviourScript.cs'
+'Assets/Scripts/AlarmLight.cs'
+'Assets/Scripts/DoneSceneFadeInOut.cs'
+'Assets/Scripts/LastPlayerSighting.cs'
+'Assets/Scripts/SceneFadeInOut.cs'
+'Assets/Scripts/Tags.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

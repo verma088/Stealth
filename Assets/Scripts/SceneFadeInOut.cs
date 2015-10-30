@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SceneFadeInOut : MonoBehaviour 
+public class SceneFadeInOut : MonoBehaviour
 {
-
 	public float fadeSpeed = 1.5f;          // Speed that the screen fades to and from black.
 	
 	
@@ -69,6 +68,6 @@ public class SceneFadeInOut : MonoBehaviour
 		// If the screen is almost black...
 		if(guiTexture.color.a >= 0.95f)
 			// ... reload the level.
-			Application.LoadLevel(0);
+			Application.LoadLevel(1);
 	}
 }

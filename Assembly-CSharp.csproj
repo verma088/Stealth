@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{3F694285-39A1-884A-2586-B5447DBBFBDF}</ProjectGuid>
+	<ProjectGuid>{26DEFDBB-DA0C-830D-369D-B1A33136BF9B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -66,11 +66,12 @@
      <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerHealth.cs" />
      <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerInventory.cs" />
      <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" />
-     <Compile Include="Assets\Done\DoneScripts\ScreenFaderScripts\DoneSceneFadeInOut.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
      <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
      <Compile Include="Assets\Scripts\AlarmLight.cs" />
+     <Compile Include="Assets\Scripts\DoneSceneFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\LastPlayerSighting.cs" />
      <Compile Include="Assets\Scripts\SceneFadeInOut.cs" />
      <Compile Include="Assets\Scripts\Tags.cs" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
